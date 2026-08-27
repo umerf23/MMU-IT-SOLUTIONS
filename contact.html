@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | MMU IT Solutions</title>
+  <meta name="description" content="Get in touch with MMU IT Solutions by WhatsApp, email or book a free 30 minute call to discuss ads, websites, automation or video.">
+  <link rel="canonical" href="https://www.mmuitsolutions.com/contact.html">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#050510">
+
+  <!-- Social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MMU IT Solutions">
+  <meta property="og:title" content="Contact | MMU IT Solutions">
+  <meta property="og:description" content="Get in touch with MMU IT Solutions by WhatsApp, email or book a free 30 minute call to discuss ads, websites, automation or video.">
+  <meta property="og:url" content="https://www.mmuitsolutions.com/contact.html">
+  <meta property="og:image" content="https://www.mmuitsolutions.com/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_PK">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact | MMU IT Solutions">
+  <meta name="twitter:description" content="Get in touch with MMU IT Solutions by WhatsApp, email or book a free 30 minute call to discuss ads, websites, automation or video.">
+  <meta name="twitter:image" content="https://www.mmuitsolutions.com/assets/og-image.png">
+
+  <!-- Icons -->
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" defer></script>
+  <script src="js/script.js" defer></script>
+  <script src="js/form.js" defer></script>
+
+  <!-- ══════════════════════════════════════════════════════════════════
+       ANALYTICS: uncomment both blocks and replace the two IDs below.
+       G-XXXXXXXXXX  comes from Google Analytics 4
+       000000000000  comes from Meta Events Manager (your Pixel ID)
+       Until you do this you are flying blind on your own traffic.
+  ═══════════════════════════════════════════════════════════════════ -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '000000000000');
+    fbq('track', 'PageView');
+  </script>
+  -->
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Background layers -->
+  <div class="mesh-bg" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <div class="noise-overlay" aria-hidden="true"></div>
+  <div class="particles" id="particles" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav class="glass-nav" id="main-nav" aria-label="Main navigation">
+    <a href="index.html" class="nav-brand" aria-label="MMU IT Solutions home">
+      <picture>
+        <source srcset="assets/logo-light.webp" type="image/webp">
+        <img src="assets/logo-light.png" alt="MMU IT Solutions" class="nav-logo" width="720" height="125">
+      </picture>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="work.html">Our Work</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </div>
+    <a href="contact.html" class="nav-cta">Book a Call</a>
+    <button class="mobile-menu-btn" id="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile navigation -->
+  <div class="mobile-nav-overlay" id="mobile-nav">
+    <a href="index.html" onclick="closeMobileNav()">Home</a>
+    <a href="services.html" onclick="closeMobileNav()">Services</a>
+    <a href="work.html" onclick="closeMobileNav()">Our Work</a>
+    <a href="pricing.html" onclick="closeMobileNav()">Pricing</a>
+    <a href="about.html" onclick="closeMobileNav()">About</a>
+    <a href="contact.html" onclick="closeMobileNav()" aria-current="page">Contact</a>
+    <a href="contact.html" onclick="closeMobileNav()" style="color: var(--accent-blue);">Book a Call</a>
+  </div>
+
+  <main id="main">
+  <section class="page-header">
+    <div class="container">
+        <p class="breadcrumb reveal"><a href="index.html">Home</a> / Contact</p>
+      <h1 class="gradient-text reveal">Let us talk</h1>
+      <p class="reveal">Tell us what you need. You will hear back within one working day, usually sooner.</p>
+    </div>
+  </section>
+  <section class="section" style="padding-top:20px;">
+    <div class="container">
+
+      <div class="contact-methods">
+        <a href="https://wa.me/920000000000?text=Hi%20MMU%20IT%20Solutions%2C%20I%27d%20like%20to%20discuss%20a%20project." class="glass-card contact-method reveal" rel="noopener">
+          <div class="icon-box blue" style="margin:0 auto;"><svg viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path d="M20 14a2 2 0 0 1-2 2H8l-4 4V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2z"/></svg></div>
+          <h3>WhatsApp</h3>
+          <p>Fastest reply. Usually within the hour during working days.</p>
+        </a>
+        <a href="mailto:hello@mmuitsolutions.com" class="glass-card contact-method reveal">
+          <div class="icon-box purple" style="margin:0 auto;"><svg viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 7 8.5 6 8.5-6"/></svg></div>
+          <h3>Email</h3>
+          <p>hello@mmuitsolutions.com</p>
+        </a>
+        <a href="https://cal.com/mmuitsolutions/30min" class="glass-card contact-method reveal" rel="noopener">
+          <div class="icon-box cyan" style="margin:0 auto;"><svg viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2.5"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
+          <h3>Book a call</h3>
+          <p>Pick a 30 minute slot that suits you. No charge.</p>
+        </a>
+      </div>
+
+      <div class="glass-card form-wrap reveal">
+        <div class="card-glow glow-blue" aria-hidden="true"></div>
+        <h2 style="margin:0 0 8px;font-size:1.4rem;">Send us a message</h2>
+        <p style="color:var(--text-muted);margin:0 0 26px;font-size:0.93rem;">
+          Fields marked with a star are required.</p>
+
+        <form id="contact-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
+          <input type="hidden" name="access_key" value="YOUR-WEB3FORMS-ACCESS-KEY">
+          <input type="hidden" name="subject" value="New enquiry from MMU IT Solutions website">
+          <input type="hidden" name="redirect" value="https://www.mmuitsolutions.com/thank-you.html">
+          <div class="hp-field" aria-hidden="true">
+            <label for="botcheck">Leave this field empty</label>
+            <input type="checkbox" name="botcheck" id="botcheck" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">Your name <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" required autocomplete="name" placeholder="Priya Sharma">
+              <span class="error-msg" id="err-name" role="alert"></span>
+            </div>
+            <div class="field">
+              <label for="email">Email address <span class="req" aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" required autocomplete="email" placeholder="you@company.com">
+              <span class="error-msg" id="err-email" role="alert"></span>
+            </div>
+            <div class="field">
+              <label for="phone">WhatsApp number</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+92 300 0000000">
+              <span class="error-msg" id="err-phone" role="alert"></span>
+            </div>
+            <div class="field">
+              <label for="company">Business name</label>
+              <input type="text" id="company" name="company" autocomplete="organization" placeholder="Sharma Dental Care">
+              <span class="error-msg"></span>
+            </div>
+            <div class="field">
+              <label for="service">What do you need? <span class="req" aria-hidden="true">*</span></label>
+              <select id="service" name="service" required>
+                <option value="">Please choose one</option>
+            <option value="Meta Ads">Meta Ads</option>
+            <option value="Website Development">Website Development</option>
+            <option value="AI Automation">AI Automation</option>
+            <option value="AI Agents">AI Agents</option>
+            <option value="UGC Video">UGC Video</option>
+                <option value="Not sure yet">Not sure yet</option>
+              </select>
+              <span class="error-msg" id="err-service" role="alert"></span>
+            </div>
+            <div class="field">
+              <label for="budget">Rough budget</label>
+              <select id="budget" name="budget">
+                <option value="">Prefer not to say</option>
+                <option value="Under 50k">Under Rs 50,000</option>
+                <option value="50k to 1L">Rs 50,000 to Rs 100,000</option>
+                <option value="1L to 2L">Rs 100,000 to Rs 200,000</option>
+                <option value="Above 2L">Above Rs 200,000</option>
+              </select>
+              <span class="error-msg"></span>
+            </div>
+            <div class="field full">
+              <label for="message">Tell us about the project <span class="req" aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" required placeholder="What are you trying to fix, and what have you already tried?"></textarea>
+              <span class="error-msg" id="err-message" role="alert"></span>
+            </div>
+          </div>
+
+          <button type="submit" class="btn-primary" id="submit-btn" style="width:100%;justify-content:center;margin-top:8px;">
+            Send Message <span aria-hidden="true">&rarr;</span>
+          </button>
+
+          <p class="form-note">By sending this you agree to us contacting you about your enquiry.
+            We do not sell or share your details. See our
+            <a href="privacy.html">privacy policy</a>.</p>
+
+          <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <picture>
+            <source srcset="assets/logo-light.webp" type="image/webp">
+            <img src="assets/logo-light.png" alt="MMU IT Solutions" width="720" height="125" style="height:32px;width:auto;margin-bottom:16px;">
+          </picture>
+          <p>A small team building the ads, websites, automation and video that growing
+            businesses actually need. Based in Islamabad, working with clients anywhere.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="meta-ads.html">Meta Ads</a>
+          <a href="web-development.html">Website Development</a>
+          <a href="ai-automation.html">AI Automation</a>
+          <a href="ai-agents.html">AI Agents</a>
+          <a href="ugc-video.html">UGC Video</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="about.html">About Us</a>
+          <a href="work.html">Our Work</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <a href="mailto:hello@mmuitsolutions.com">hello@mmuitsolutions.com</a>
+          <a href="https://wa.me/920000000000?text=Hi%20MMU%20IT%20Solutions%2C%20I%27d%20like%20to%20discuss%20a%20project." rel="noopener">WhatsApp</a>
+          <a href="https://www.linkedin.com/company/mmu-it-solutions" rel="noopener">LinkedIn</a>
+          <a href="https://www.instagram.com/mmuitsolutions" rel="noopener">Instagram</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> MMU IT Solutions. All rights reserved.</p>
+        <p>
+          <a href="privacy.html">Privacy Policy</a>
+          &nbsp;&middot;&nbsp;
+          <a href="terms.html">Terms of Service</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

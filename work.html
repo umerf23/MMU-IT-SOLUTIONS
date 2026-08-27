@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Work | MMU IT Solutions</title>
+  <meta name="description" content="Demos and projects from MMU IT Solutions, clearly labelled as client work or internal builds. No invented case studies.">
+  <link rel="canonical" href="https://www.mmuitsolutions.com/work.html">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#050510">
+
+  <!-- Social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MMU IT Solutions">
+  <meta property="og:title" content="Our Work | MMU IT Solutions">
+  <meta property="og:description" content="Demos and projects from MMU IT Solutions, clearly labelled as client work or internal builds. No invented case studies.">
+  <meta property="og:url" content="https://www.mmuitsolutions.com/work.html">
+  <meta property="og:image" content="https://www.mmuitsolutions.com/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_PK">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Our Work | MMU IT Solutions">
+  <meta name="twitter:description" content="Demos and projects from MMU IT Solutions, clearly labelled as client work or internal builds. No invented case studies.">
+  <meta name="twitter:image" content="https://www.mmuitsolutions.com/assets/og-image.png">
+
+  <!-- Icons -->
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" defer></script>
+  <script src="js/script.js" defer></script>
+
+  <!-- ══════════════════════════════════════════════════════════════════
+       ANALYTICS: uncomment both blocks and replace the two IDs below.
+       G-XXXXXXXXXX  comes from Google Analytics 4
+       000000000000  comes from Meta Events Manager (your Pixel ID)
+       Until you do this you are flying blind on your own traffic.
+  ═══════════════════════════════════════════════════════════════════ -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '000000000000');
+    fbq('track', 'PageView');
+  </script>
+  -->
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Background layers -->
+  <div class="mesh-bg" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <div class="noise-overlay" aria-hidden="true"></div>
+  <div class="particles" id="particles" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav class="glass-nav" id="main-nav" aria-label="Main navigation">
+    <a href="index.html" class="nav-brand" aria-label="MMU IT Solutions home">
+      <picture>
+        <source srcset="assets/logo-light.webp" type="image/webp">
+        <img src="assets/logo-light.png" alt="MMU IT Solutions" class="nav-logo" width="720" height="125">
+      </picture>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="work.html" aria-current="page">Our Work</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="contact.html" class="nav-cta">Book a Call</a>
+    <button class="mobile-menu-btn" id="mobile-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile navigation -->
+  <div class="mobile-nav-overlay" id="mobile-nav">
+    <a href="index.html" onclick="closeMobileNav()">Home</a>
+    <a href="services.html" onclick="closeMobileNav()">Services</a>
+    <a href="work.html" onclick="closeMobileNav()" aria-current="page">Our Work</a>
+    <a href="pricing.html" onclick="closeMobileNav()">Pricing</a>
+    <a href="about.html" onclick="closeMobileNav()">About</a>
+    <a href="contact.html" onclick="closeMobileNav()">Contact</a>
+    <a href="contact.html" onclick="closeMobileNav()" style="color: var(--accent-blue);">Book a Call</a>
+  </div>
+
+  <main id="main">
+  <section class="page-header">
+    <div class="container">
+        <p class="breadcrumb reveal"><a href="index.html">Home</a> / Our Work</p>
+      <h1 class="gradient-text reveal">Our work</h1>
+      <p class="reveal">We launched recently, so we are not going to show you a wall of logos we do not have.</p>
+    </div>
+  </section>
+  <section class="section" style="padding-top:20px;">
+    <div class="container">
+        <div class="honesty-note reveal">
+          <strong>Read this first.</strong> Every item below is labelled either as a live client
+          project or as an internal demo we built ourselves. We do not have permission to show
+          client results yet, and we would rather say so than invent a case study with a
+          made-up percentage on it. When real client results exist, they will appear here with
+          the client named and the numbers dated.
+        </div>
+      <div class="work-grid">
+        <article class="glass-card work-card reveal" data-tilt data-tilt-max="6" data-tilt-speed="400">
+          <div class="card-glow glow-blue" aria-hidden="true"></div>
+          <span class="demo-tag live">Live on this site</span>
+          <h3>This website</h3>
+          <p>Built from scratch with no page builder. Scores above 90 on Lighthouse performance, loads in under two seconds on mobile data, and every page is indexed with proper schema markup. If you like how this site feels, that is what we build for clients.</p>
+          <div class="work-meta">Service: Website development</div>
+        </article>
+        <article class="glass-card work-card reveal" data-tilt data-tilt-max="6" data-tilt-speed="400">
+          <div class="card-glow glow-blue" aria-hidden="true"></div>
+          <span class="demo-tag demo">Internal demo</span>
+          <h3>Clinic booking agent</h3>
+          <p>A chat agent that answers common patient questions, checks availability and books an appointment without a human involved. Built to show what a service business can hand over to an agent. Ask it about opening hours or try to book a slot.</p>
+          <div class="work-meta">Service: AI agents</div>
+        </article>
+        <article class="glass-card work-card reveal" data-tilt data-tilt-max="6" data-tilt-speed="400">
+          <div class="card-glow glow-blue" aria-hidden="true"></div>
+          <span class="demo-tag demo">Internal demo</span>
+          <h3>Lead follow-up automation</h3>
+          <p>When a form is submitted, the lead is added to a sheet, tagged by service, sent a WhatsApp confirmation within seconds and reminded again after 48 hours if there is no reply. Runs entirely without anyone touching it.</p>
+          <div class="work-meta">Service: AI automation</div>
+        </article>
+        <article class="glass-card work-card reveal" data-tilt data-tilt-max="6" data-tilt-speed="400">
+          <div class="card-glow glow-blue" aria-hidden="true"></div>
+          <span class="demo-tag demo">Internal demo</span>
+          <h3>UGC ad set, three variations</h3>
+          <p>The same product filmed three ways: problem-first, demo-first and testimonial-style. Made to show how much the hook changes performance when everything else stays the same.</p>
+          <div class="work-meta">Service: UGC video</div>
+        </article>
+        <article class="glass-card work-card reveal" data-tilt data-tilt-max="6" data-tilt-speed="400">
+          <div class="card-glow glow-blue" aria-hidden="true"></div>
+          <span class="demo-tag demo">Internal demo</span>
+          <h3>Our own Meta Ads account</h3>
+          <p>We run ads to this website and publish what happens, including the campaigns that did not work. Screenshots come straight from Ads Manager with dates visible.</p>
+          <div class="work-meta">Service: Meta Ads</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="glass-card cta-inline reveal">
+        <div class="cta-glow" aria-hidden="true"></div>
+        <h2 class="gradient-text">Want to be our first case study?</h2>
+        <p>We are taking on a small number of pilot projects at a reduced rate. In exchange we
+          ask for an honest testimonial and permission to publish the results, good or bad.</p>
+        <div class="hero-buttons" style="justify-content:center;">
+          <a href="contact.html" class="btn-primary">Apply for a Pilot <span aria-hidden="true">&rarr;</span></a>
+          <a href="pricing.html" class="btn-secondary">See Pricing</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <picture>
+            <source srcset="assets/logo-light.webp" type="image/webp">
+            <img src="assets/logo-light.png" alt="MMU IT Solutions" width="720" height="125" style="height:32px;width:auto;margin-bottom:16px;">
+          </picture>
+          <p>A small team building the ads, websites, automation and video that growing
+            businesses actually need. Based in Islamabad, working with clients anywhere.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="meta-ads.html">Meta Ads</a>
+          <a href="web-development.html">Website Development</a>
+          <a href="ai-automation.html">AI Automation</a>
+          <a href="ai-agents.html">AI Agents</a>
+          <a href="ugc-video.html">UGC Video</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="about.html">About Us</a>
+          <a href="work.html">Our Work</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <a href="mailto:hello@mmuitsolutions.com">hello@mmuitsolutions.com</a>
+          <a href="https://wa.me/920000000000?text=Hi%20MMU%20IT%20Solutions%2C%20I%27d%20like%20to%20discuss%20a%20project." rel="noopener">WhatsApp</a>
+          <a href="https://www.linkedin.com/company/mmu-it-solutions" rel="noopener">LinkedIn</a>
+          <a href="https://www.instagram.com/mmuitsolutions" rel="noopener">Instagram</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> MMU IT Solutions. All rights reserved.</p>
+        <p>
+          <a href="privacy.html">Privacy Policy</a>
+          &nbsp;&middot;&nbsp;
+          <a href="terms.html">Terms of Service</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
