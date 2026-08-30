@@ -15,12 +15,12 @@ look unfinished and your form will not deliver anything.
 | Placeholder | Where it appears | Replace with |
 |---|---|---|
 | `https://www.mmuitsolutions.com` | canonical and Open Graph tags, sitemap, robots | Your real domain |
-| `hello@mmuitsolutions.com` | footer, contact page, legal pages | Your real email |
+| `contact@mmuitsolutions.tech` | footer, contact page, legal pages | Your real email |
 | `910000000000` | every WhatsApp link | Your number in international format, digits only, no `+` |
 | `+91 00000 00000` | schema markup on the home page | Your number as you want it displayed |
 | `YOUR-WEB3FORMS-ACCESS-KEY` | `contact.html` | See section 2 |
 | `mmuitsolutions/30min` | `contact.html` | Your Cal.com or Calendly link |
-| `Founder name` | `about.html`, appears 3 times | Your three real names |
+| `Mubashir Rashid` | `about.html`, appears 3 times | Your three real names |
 | `Chandigarh` | footer, legal pages, schema | Your actual city |
 
 On Mac or Linux you can do the domain in one command from the site folder:
